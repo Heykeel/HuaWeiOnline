@@ -1,5 +1,5 @@
-def t(str):
-    return len(str.split(" ")[-1])
+def t(st):
+    return len(st.split(" ")[-1])
 
-str = input()
-print(t(str))
+st = input()
+print(t(st))
